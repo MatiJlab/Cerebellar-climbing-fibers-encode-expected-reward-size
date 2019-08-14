@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="us-ascii" standalone="yes"?>
+<?fyp appVersion="5.1.2" schemaVersion="22"?>
+<figure strokeWidth="0.01in" strokeJoin="miter" loc="0.2in 0.5in" strokePat="solid" psFont="Helvetica" fontStyle="plain" fillColor="000000" altFont="serif" strokeCap="butt" width="1.8in" fontSize="12" strokeColor="000000" font="Arial" height="3.6in"
+     xmlns="http://www.keck.ucsf.edu/datanav/namespace/schema22">
+   <graph strokeWidth="0.5pt" loc="0.5in 2.3in" autorange="z" width="1in" fontSize="10" height="1in">
+      <axis strokeWidth="0.01in" labelOffset="0.25in" lineHt="1" start="0" spacer="0.01in" fontSize="8" end="2" title="Cspk rate (spikes/s)&#xa;&#xa;&#xa;">
+         <ticks intv="0.5" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <axis strokeWidth="0.01in" labelOffset="0.3in" start="0" fontSize="8" end="0.2" title="Fraction of Purkinje cells&#xa;">
+         <ticks intv="0.1" perLogIntv="1"></ticks>
+      </axis>
+      <zaxis cmapnan="ffffff" lineHt="0.8" gap="0.2in" cmap="tropic" start="0" spacer="0.1in" end="100" title="Z AXIS">
+         <ticks intv="10" fontSize="8"></ticks>
+      </zaxis>
+      <gridline strokeColor="262626" />
+      <gridline strokeColor="262626" />
+      <legend loc="0.044in 0.803in" labelOffset="0.01in" hide="false" len="0.1in" spacer="0.12in" mid="true" fontSize="8" />
+      <trace strokeWidth="0.2pt" mode="histogram" barWidth="0.1" src="#src_41" legend="false" strokeColor="404040" title="Firing rate - complex spikes">
+         <symbol fillColor="none" size="0pt" type="circle" />
+         <ebar strokeWidth="1pt" hide="true" />
+      </trace>
+   </graph>
+   <graph loc="0.5in 0.5in" width="1in" fontSize="8" title="both reward" clip="true" height="1in">
+      <axis labelOffset="0.25in" start="-100" spacer="0.03in" end="100" title="Time from complex spike (ms)&#xa;&#xa;">
+         <ticks intv="50" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <axis labelOffset="0.3in" start="0" end="100" title="Simple spike rate (spike/s)">
+         <ticks intv="25" perLogIntv="1" fmt="f2"></ticks>
+      </axis>
+      <zaxis cmapnan="ffffff" gap="0.2in" start="0" spacer="0.1in" end="100" title="Z AXIS">
+         <ticks intv="10"></ticks>
+      </zaxis>
+      <gridline />
+      <gridline />
+      <legend loc="0.624in 0.699in" labelOffset="0.03in" len="0.12in" spacer="0.11in" mid="true" />
+      <graph loc="0.5in 0.5in" width="1in" title="with cue" height="1in">
+         <axis hide="true" labelOffset="0.3in" start="-10" spacer="0in" end="90">
+            <ticks intv="30" start="0" end="90"></ticks>
+         </axis>
+         <axis hide="true" labelOffset="0.3in" start="-10" spacer="0in" end="90">
+            <ticks intv="30" start="0" end="90"></ticks>
+         </axis>
+         <zaxis cmapnan="ffffff" gap="0.2in" start="0" spacer="0.1in" end="100" title="Z AXIS">
+            <ticks intv="10"></ticks>
+         </zaxis>
+         <gridline />
+         <gridline />
+         <legend loc="30% 5%" hide="false" size="0.05in" len="0.25in" spacer="0.15in" mid="true" />
+      </graph>
+      <trace src="#src_RL4" legend="false" strokeColor="0000ff" title="Large, PD">
+         <symbol fillColor="ffffff" size="0pt" type="circle" />
+         <ebar fillColor="c8c8ff" strokeWidth="0.001in" cap="linethru" capSize="0in" strokeColor="c8c8ff" />
+      </trace>
+      <trace src="#src_RL4" title="Large PD">
+         <symbol fillColor="ffffff" size="0pt" type="circle" />
+         <ebar fillColor="808080" strokeWidth="0.001in" hide="true" cap="linethru" capSize="0in" />
+      </trace>
+   </graph>
+   <ref>
+      <set id="src_RL4" fmt="series">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</set>
+      <set id="src_41" fmt="ptset">AAAABnNyY180MQAAAAAAAAACAAAAFQAAAAAAAAAAPczMzQAAAAA+TMzNO5TyCT6ZmZoAAAAAPszM
+zTy6Low/AAAAPRTyCT8ZmZo9Oi6MPzMzMz4ZmZo/TMzNPiw32z9mZmY+TMzNP4AAAD37WHA/jMzN
+Pei6Lz+ZmZo9TMzNP6ZmZj06Low/szMzPBTyCT/AAAA8X2sOP8zMzTuU8gk/2ZmaAAAAAD/mZmY8
+FPIJP/MzMwAAAABAAAAAO5TyCQ==</set>
+   </ref>
+</figure>

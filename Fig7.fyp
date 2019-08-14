@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="us-ascii" standalone="yes"?>
+<?fyp appVersion="5.1.2" schemaVersion="22"?>
+<figure strokeWidth="0.01in" strokeJoin="miter" loc="0.5in 0.5in" strokePat="solid" psFont="Helvetica" fontStyle="plain" fillColor="000000" altFont="serif" strokeCap="butt" width="3.8in" fontSize="12" strokeColor="000000" font="Arial" height="3.8in"
+     xmlns="http://www.keck.ucsf.edu/datanav/namespace/schema22">
+   <graph loc="2.4in 0.64in" width="1in" fontSize="8" title="CS scatter" height="1in">
+      <axis labelOffset="0.2in" lineHt="1" start="-2" spacer="0.03in" end="2" title="Large-small reward Cspk (spike/s)&#xa;&#xa;">
+         <ticks intv="1" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <axis labelOffset="0.35in" lineHt="1" start="-60" spacer="0.03in" end="60" title="Post-pre cue Sspk (spike/s)">
+         <ticks intv="30" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <zaxis cmapnan="ffffff" gap="0.2in" start="0" spacer="0.1in" end="100" title="Z AXIS">
+         <ticks intv="10"></ticks>
+      </zaxis>
+      <gridline />
+      <gridline />
+      <legend loc="0.251in 0.88in" labelOffset="0.05in" hide="false" size="0.04in" len="0.15in" spacer="0.12in" mid="true" />
+      <trace strokeWidth="0pt" src="#src_7521" title="Nonsignificant">
+         <symbol fillColor="808080" strokeWidth="0.5pt" size="2.5pt" strokeColor="ffffff" type="circle" />
+         <ebar hide="true" />
+      </trace>
+      <trace strokeWidth="0pt" src="#src_75111" strokeColor="0072bd" title="Significant">
+         <symbol strokeWidth="0.5pt" size="3pt" strokeColor="ffffff" type="circle" />
+         <ebar hide="true" />
+      </trace>
+      <line p0="0% 0%" p1="75% 75%" strokePat="dashed" strokeColor="none" />
+      <label loc="7% 95%" fontSize="13" valign="center" align="center" title="D" />
+   </graph>
+   <graph loc="0.5in 0.64in" width="1in" fontSize="8" title="CS scatter" height="1in">
+      <axis labelOffset="0.2in" lineHt="1" start="-2" spacer="0.03in" end="2" title="Large-small reward Cspk (spike/s)&#xa;&#xa;">
+         <ticks intv="1" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <axis labelOffset="0.35in" lineHt="1" start="-60" spacer="0.03in" end="60" title="Large-small reward Sspk (spike/s)">
+         <ticks intv="30" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <zaxis cmapnan="ffffff" gap="0.2in" start="0" spacer="0.1in" end="100" title="Z AXIS">
+         <ticks intv="10"></ticks>
+      </zaxis>
+      <gridline />
+      <gridline />
+      <legend loc="0.166in 0.957in" labelOffset="0.05in" size="0.04in" len="0.15in" spacer="0.12in" mid="true" />
+      <trace strokeWidth="0pt" src="#src_752" title="Nonsignificant">
+         <symbol fillColor="808080" strokeWidth="0.5pt" size="2.5pt" strokeColor="ffffff" type="circle" />
+         <ebar hide="true" />
+      </trace>
+      <trace strokeWidth="0pt" src="#src_7511" strokeColor="0072bd" title="Significant">
+         <symbol strokeWidth="0.5pt" size="3pt" strokeColor="ffffff" type="circle" />
+         <ebar hide="true" />
+      </trace>
+      <line p0="0% 0%" p1="75% 75%" strokePat="dashed" strokeColor="none" />
+      <label loc="7% 95%" fontSize="13" valign="center" align="center" title="C" />
+   </graph>
+   <graph strokeWidth="0.5pt" loc="2.4in 2.4in" autorange="z" width="1in" fontSize="8" height="1.2in">
+      <axis strokeWidth="0.01in" labelOffset="0.2in" lineHt="1" start="-1" spacer="0.03in" end="1" title="Signal correlation of Cspk and Sspk&#xa;&#xa;">
+         <ticks intv="0.5" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <axis strokeWidth="0.01in" labelOffset="0.3in" lineHt="1" start="0" spacer="0.03in" end="0.4" title="Fraction of Purkinje cells">
+         <ticks intv="0.1" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <zaxis cmapnan="ffffff" lineHt="0.8" gap="0.2in" cmap="tropic" start="0" spacer="0.1in" end="100" title="Z AXIS">
+         <ticks intv="10"></ticks>
+      </zaxis>
+      <gridline strokeColor="262626" />
+      <gridline strokeColor="262626" />
+      <legend loc="0.19in 0.764in" labelOffset="0.01in" hide="false" len="0.1in" spacer="0.12in" mid="true" />
+      <trace strokeWidth="0.3pt" mode="histogram" barWidth="0.21" src="#src_41" legend="false" strokeColor="404040" title="Firing rate - complex spikes">
+         <symbol fillColor="none" size="0pt" type="circle" />
+         <ebar strokeWidth="1pt" hide="true" />
+      </trace>
+      <trace fillColor="none" strokeWidth="0pt" src="#src_38" legend="false" strokeColor="6a5acd" yoff="64">
+         <symbol strokeWidth="0.25pt" size="2.2pt" strokeColor="none" type="circle" />
+         <ebar hide="true" />
+      </trace>
+      <label loc="7% 95%" fontSize="13" valign="center" align="center" title="B" />
+      <trace strokeWidth="0.8pt" src="#src_35" strokeColor="808080" title="Phase shuffle">
+         <symbol fillColor="none" size="0pt" type="circle" />
+         <ebar hide="true" />
+      </trace>
+      <trace fillColor="808080" strokeWidth="0.8pt" strokePat="dashed" src="#src_81" strokeColor="808080" title="Direction shuffle">
+         <symbol fillColor="none" size="0pt" type="circle" />
+         <ebar hide="true" />
+      </trace>
+   </graph>
+   <graph loc="0.5in 3.1in" width="1in" fontSize="8" title="Direction (deg)" height="0.5in">
+      <axis fillColor="none" labelOffset="0.2in" start="-180" spacer="0in" end="180" strokeColor="none" title="Direction (deg)&#xa;">
+         <ticks intv="90" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <axis labelOffset="0.3in" start="0.5" end="2.5" log2="true" title="Cspk rate&#xa;">
+         <ticks intv="1" fmt="f1"></ticks>
+      </axis>
+      <zaxis cmapnan="ffffff" gap="0.2in" start="0" spacer="0.1in" end="100" title="Z AXIS">
+         <ticks intv="10"></ticks>
+      </zaxis>
+      <gridline />
+      <gridline />
+      <legend loc="0.229in 0.917in" len="0.1in" spacer="0.12in" mid="true" />
+      <trace strokeWidth="0.5pt" src="#src_192" title="CS" yoff="0.15">
+         <symbol fillColor="ffffff" size="0pt" type="circle" />
+         <ebar cap="linethru" capSize="3.6pt" />
+      </trace>
+      <label loc="2% 95%" fontSize="13" valign="center" align="center" title="A" />
+      <label loc="50.4% 90.7%" align="center" title="Complex spikes" />
+      <trace strokeWidth="0pt" src="#src_191" legend="false" title="CS" yoff="0.15">
+         <symbol fillColor="ffffff" strokeWidth="0.5pt" size="3.5pt" type="circle" />
+         <ebar hide="true" cap="linethru" capSize="0.05in" />
+      </trace>
+   </graph>
+   <graph loc="0.5in 2.4in" width="1in" fontSize="8" title="Direction (deg)" height="0.5in">
+      <axis labelOffset="0.2in" lineHt="1" start="-180" spacer="0.03in" end="180" title="Direction (deg)&#xa;">
+         <ticks intv="90" perLogIntv="1" fmt="f1"></ticks>
+      </axis>
+      <axis labelOffset="0.3in" start="-10" end="20" units="spk/s" title="&#x394; Sspk rate&#xa;">
+         <ticks intv="10" perLogIntv="1"></ticks>
+      </axis>
+      <zaxis cmapnan="ffffff" gap="0.2in" start="0" spacer="0.1in" end="100" title="Z AXIS">
+         <ticks intv="10"></ticks>
+      </zaxis>
+      <gridline />
+      <gridline />
+      <legend loc="0.229in 0.917in" len="0.1in" spacer="0.12in" mid="true" />
+      <trace strokeWidth="0.5pt" src="#src_19" title="SS">
+         <symbol fillColor="ffffff" size="0pt" type="circle" />
+         <ebar cap="linethru" capSize="3.6pt" />
+      </trace>
+      <trace strokeWidth="0pt" src="#src_19" legend="false" title="SS">
+         <symbol fillColor="ffffff" strokeWidth="0.5pt" size="3.5pt" type="circle" />
+         <ebar hide="true" cap="linethru" capSize="0.05in" />
+      </trace>
+      <label loc="52.7% 81.8%" align="center" title="Simple spikes" />
+   </graph>
+   <ref>
+      <set id="src_19" fmt="series">AAAABnNyY18xOQAAAAJCNAAAwzQAAAAAAAIAAAAJwRGZkz+r2d/A8tvhP9Qdj8Afe54/hoosQN+d
+GD/Q2HRBNpRPP+JYb0DlX4k/pnFgvoBhND+C2InAxFJWP6f2O8ERmZM/q9nf</set>
+      <set id="src_191" fmt="series">AAAAB3NyY18xOTEAAAACQjQAAMM0AAAAAAACAAAACT/lLfo+Xy/mP7z5WT5PMaY/Xjw+PgPCyT+C
+Cq8+HtZ4P4jVMD5bQuA/jX3TPlUe2z+25/U+aKp/P7pQZT4Mw9g/5S36Pl8v5g==</set>
+      <set using="src_191" id="src_192" fmt="series"></set>
+      <set id="src_81" fmt="ptset">AAAABnNyY184MQAAAAAAAAACAAAAC7+AAAA6KSALv0zMzTylKUq/GZmaPZ+Lur7MzM0+EYHRvkzM
+zT42/6sAAAAAPjrMJD5MzM0+Ho4KPszMzT4NDDk/GZmaPaV92j9MzM08yihNP4AAAAAAAAA=</set>
+      <set id="src_35" fmt="series">AAAABnNyY18zNQAAAAI+gAAAv4AAAAAAAAEAAAAJO+iMDz2zCOs+KkgDPiMDoj4MjWE+QjrMPizs
+gz2Y8Ho8G+mK</set>
+      <set id="src_38" fmt="ptset">AAAABnNyY18zOAAAAAAAAAACAAAAB79EcoJBAAAAvwUK6EDAAAC+i0adQKAAALzHdqlAwAAAPmSv
+kUAAAAA+8Sb7QEAAAD83+xc/gAAA</set>
+      <set id="src_41" fmt="series">AAAABnNyY180MQAAAAI+gAAAv4AAAAAAAAEAAAAJPQQhCD5nOc4+RjGMPkYxjD4lKUo9xjGMPYQh
+CD0EIQgAAAAA</set>
+      <set id="src_7511" fmt="ptset">AAAACHNyY183NTExAAAAAAAAAAIAAAAeP6/m+8Fnov0/FjTHQJvcDz8rv61AKxgAPpF14r/cCQA/
+8GI+wIoYIj8GXZM/XUXkP2455UCXX8c/QWeKPsdlMj8OchW/5x5+P+b0aEFLvSw/H8kHQLKkJT8S
+fc9BVWr3PuxRPT+MjA0/tlKEwI/dvT7NTW6+5WiWvyWMj7/KO4Q/CGv6v3rqWD9o4CBAvM6Lv0YM
+mkGXqn2/oaC+wHAulD8ydiK/yJu6PzQp7MEqB9Y/A7L6wB2+Ej8ryKHALlzRP7HyhEDl/0i/eGmG
+wDlUJb+fz9BAta5XPxjxZ8Ba8gM/GadBQhQg2z+Xv5xBc2wv</set>
+      <set id="src_752" fmt="ptset">AAAAB3NyY183NTIAAAAAAAAAAgAAAKw/r+b7wWei/T6OOJ2/WZ3FPxuO0kDH6eI/FjTHQJvcDz6f
+CKi/5k2IPyu/rUArGAA+kXXiv9wJAD7rvL1BRfDKPriYC7/dIpo/C7xEP7lDP75FCOm/E186P/Bi
+PsCKGCI+r5HyP50RDb5d1cdBQpdBPqjCd0AiszS+Omc3PbZcGL4Wjf1Ab+cAvlNGYkAeOfo+QHZD
+wH7Jaj8hSDM/hX43vqRKAcC/vfA9IkAOwBLUU77cWhLAn143vpLgCkCClFc/U5wGwUJTOL81cj49
+l4mPPozsyMC+Nlq+0fSGPyPURb5b/sdALpkkPwZdkz9dReQ/bjnlQJdfxz42xVXAKe3tP0Fnij7H
+ZTK+l3Xyv8iX/b1ayli/1ztMPHODdb+5hyM/JVqXQI7vpDxcOcU/TB4lPZXYFcB+Zgs+Hwg7PgHr
+Sr4NkdI/3m8rPunxwkAWqz8/DnIVv+cefj6obgc/fD95PgMAm787YNm+w3zdQDJTND7ZPihAk3v5
+P+b0aEFLvSw/H8kHQLKkJT60hvRBX02jPxJ9z0FVavc5qmuYP52O0z4NINRBJd+KPuxRPT+MjA29
+S945QHoaaD6G+lFAG8cbvhTl4MBehWI+5q49QI77rz7QvgTA+hBRPjZ8ccFQWb8/tlKEwI/dvb5L
+PwPBpwMVu6grv8AWGN4+H2+7wHg11L4D+cC/tyV2PeqceEBlM9m+FN+gwGrFhj6rVTK/2wiJv94/
+nMEQUUQ+ePzPwAdfZ768byRA3AI4Pk2ZjsFjCBg/DudhwLBm0z5b52HAIiQtvoV300ETjb491JNL
+v6LCYr6KTnm/M7TovqP6HkDG/LA9yasEwDcstD5cbwc/vovhvP6hxcCcJPq/Es12QAL4Zz4q7hVA
+HRG9Ps1Nbr7laJa/JYyPv8o7hD8Ia/q/eupYvUnhs0Eolwc/aOAgQLzOi79GDJpBl6p9PpTOH8CL
+oMS+flSgQFqDjT7SUFRAj3Y+PvUSdcBWScW+pTegQI4LmT4M0zdAud8gPgBoCcFYHuY+wvM1P9au
+cz3GQs+/LHXoP1VonMB3t6o+KMskwK5abT3ra6U89kX+PiZchL7lJJU/Cla5wOfBtT5nE61ARGI0
+vVG3uL+ml2A+KT1pwHlBvD9CHw9CFZVmv6GgvsBwLpS+cfgqQBRr2D8lJSrAUCmrvgbc5EC7kQO/
+CyBDQY7YZj3zv5o+5xoPvhecUcCJnYE+Xg0mQRGqQ76a5OhBEBAJvoUc5sCITTe9tLmmQJdQCD7A
+QTnAgP7bPiDuXEDH5A2+fzrGP54GQD8ydiK/yJu6vW9oJUAi/r0+4XYdwD240j4QDHC/OVuqPuQ/
+Mb+TkhO+ngduwRcDpj80KezBKgfWvsd0FsAbA3K9mNhJQGQIPTzxsGpByFkEPeKqYUCkdjw9zYkr
+vyCYgr9gjTdBE3EKPwOy+sAdvhK+DGpxQXK3QD8ryKHALlzRP7HyhEDl/0i+qvMdv4qAXb57eltB
+k1hIvJl+YcDhQ1O+Q88mQehDxTz6p7U/ZvTrPyGe9sCWWSw+hlHeQPFouz1yiMa/hi99v3hphsA5
+VCW+3d6VPiJTa7+fz9BAta5XPwwB4EGbYuk/GPFnwFryA72kyyXAH1HfvoiM60Cf9N++r9qhQPx/
+sL4GoFK/ovBrvr0VZ0AaXSi+mLQ5QT2uM76kPIm90DwJPnNgkkEhwag/JklBwTuY+T34ZqFAqBCo
+PyCUBr/OEr4/AO/dQbz+tLuZ7NpAQ98IPjj1iUFAmUw9t3ZpPyP+Ub95Qd8/34qAPDGSfkGqiIE/
+GadBQhQg2z3ojjS+YpH5vpBcbcEASvY/l7+cQXNsLw==</set>
+      <set id="src_75111" fmt="ptset">AAAACXNyY183NTExMQAAAAAAAAACAAAAHj+v5vvBmKhjPxY0x0CfNDg/K7+twJ80OD6RdeLALAu9
+P/BiPkAOM50/Bl2TwJLIqD9uOeW//STrP0FnisA2Rus/DnIVvm47uT/m9GjADyM1Px/JB8GMtwE/
+En3PwMCq0D7sUT3BNg1+P7ZShD+wWVo+zU1uQWWCZ78ljI/A4He9Pwhr+j5ymLc/aOAgwKFuPL9G
+DJrBec26v6GgvkCEgVM/MnYiwLu0Fj80KezA7VKdPwOy+sHAIsI/K8ihQOOD0T+x8oTB+mBDv3hp
+hkFQ0Km/n8/QP63h4j8Y8WdAGCaQPxmnQUGPDpU/l7+cwaP4CQ==</set>
+      <set id="src_7521" fmt="ptset">AAAACHNyY183NTIxAAAAAAAAAAIAAACsP6/m+8GYqGM+jjidwSv6yD8bjtI9sTNyPxY0x0CfNDg+
+nwioQUObej8rv63AnzQ4PpF14sAsC70+67y9wKq9kT64mAvBNiqFPwu8RMCVJiS+RQjpQCz2XD/w
+Yj5ADjOdPq+R8sCfNDi+XdXHwKvwtz6ownfAFZjLvjpnN8DHvyK+Fo39wAvJ875TRmLA4QUpPkB2
+Q78MpX4/IUgzPvcfYr6kSgHAq5wHPSJADr48r6u+3FoSwQJNZr6S4Aq/zmYaP1OcBkEI3Ay/NXI+
+wFfeqz6M7MhBaFv9vtH0hr+7cK6+W/7Hv84Yxz8GXZPAksioP2455b/9JOs+NsVVQHEtVj9BZ4rA
+Nkbrvpd18j/3BWi9WspYwLQZeTxzg3VA8DuHPyVal8E2spc8XDnFwJ36tj2V2BU/q3NQPh8IO7/K
+Zhy+DZHSQAXE3z7p8cLBKRepPw5yFb5uO7k+qG4HwQj2Vj4DAJvAyblsvsN83cDR7IA+2T4ovvuU
+5D/m9GjADyM1Px/JB8GMtwE+tIb0Qc0AnD8Sfc/AwKrQOaprmMBiSjk+DSDUPxAvSz7sUT3BNg1+
+vUveOUANI2Y+hvpRwFws/L4U5eBAmY73PuauPT/PCyk+0L4EQS4QIj42fHHBIpdfP7ZShD+wWVq+
+Sz8DQWvblbuoK7/AIRO0Ph9vu8BURaC+A/nAQUp/DT3qnHhAAxvyvhTfoMBag+k+q1UyP68f17/e
+P5xAvYdPPnj8z8D5MFi+vG8kPssn8D5NmY7AvPY0Pw7nYUC37NM+W+dhwKSL4b6Fd9NACBJgPdST
+S0CAY+u+ik55QKzZnL6j+h7BLjAZPcmrBEDB0EQ+XG8HwMIHpLz+ocW/Y/7uvxLNdkBIeqU+Ku4V
+Pp43Ez7NTW5BZYJnvyWMj8Dgd70/CGv6PnKYt71J4bM/VZcnP2jgIMChbjy/RgyawXnNuj6Uzh/B
+ixJ0vn5UoMGGhwE+0lBUQC4JYj71EnW/LglivqU3oL7RlcI+DNM3P2zD0D4AaAnBo987PsLzNcDp
+uZk9xkLPwMzzxz9VaJxAG4BmPijLJMCB9mI962ulP5phLz4mXITAXYBOPwpWuUAQuxw+ZxOtwKEu
+gr1Rt7jAVZcnPik9aT/dRD0/Qh8PvZ80OL+hoL5AhIFTvnH4Kr9+ufM/JSUqP/XJ4r4G3ORAELsc
+vwsgQ0AZTrs987+aP8LYv74XnFHA2XMIPl4NJsAv9lm+muTowXymWb6FHOa/2ufNvbS5pkFraIg+
+wEE5P/658z4g7ly/dtPwvn86xsAKcDE/MnYiwLu0Fr1vaCVBQioQPuF2HUDYwyk+EAxwwTH3oT7k
+PzG+zGj5vp4HbsGlnNQ/NCnswO1Snb7HdBZAwlKQvZjYSUCwA6w88bBqQNUE+D3iqmFAD0iZPc2J
+K7zk97C/YI03QKjzfz8DsvrBwCLCvgxqccFiGoE/K8ihQOOD0T+x8oTB+mBDvqrzHcDiALu+e3pb
+wLG9zryZfmE/njcTvkPPJsAIvVc8+qe1wVPJrD8hnvbAdGloPoZR3jz4g3c9cojGPuh9Bb94aYZB
+UNCpvt3elT9EjFK/n8/QP63h4j8MAeBA2GTNPxjxZ0AYJpC9pMslQO9Thb6IjOtBBMOFvq/aocAn
+Pp2+BqBSvZuO3769FWdBBTYkvpi0OUG+5QO+pDyJQC0iYz5zYJJBOtZ8PyZJQUAuECI9+GahQCnR
+TT8glAZAnzQ4PwDv3UHlHNy7mezav3658z449YlBi44uPbd2acDskXO/eUHfwPHBEzwxkn7ANNME
+PxmnQUGPDpU96I40QOqdzL6QXG3BfOqAP5e/nMGj+Ak=</set>
+   </ref>
+</figure>
